@@ -30,11 +30,12 @@ if __name__ == "__main__":
     print(no_dups("hello hello"))
     print(no_dups("cats dogs fish cats dogs"))
     print(no_dups("spam spam spam eggs spam sausage spam spam and spam"))
-    # (prev, word)   p   w
+    # (prev, word)                  p          w
     
     # foo = {
     #   'None': 'spam',
     #   'spam': 'eggs', 
     #   'eggs': 'sausage',
     #   'sausage': 'and'
+    #   'and': None
     # }
